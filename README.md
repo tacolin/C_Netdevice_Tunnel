@@ -58,7 +58,7 @@ In COMPUTER B:
 ## Tunnel Data Transmission Flow
 
 ### Tx
-    User Space Program (ex. PING) 
+    User Space Program (e.g. PING) 
     -> LINUX TCP/IP Protocol Stack 
     -> Virtual Net Device(taco01) ndo_start_xmit() = my_start_xmit()
        pack tunnel header, change outgoing device, ...
@@ -71,7 +71,7 @@ In COMPUTER B:
     -> Net filter hook function = my_hook_fn()
        unpack tunnel header, change incoming device, ...
     -> LINUX TCP/IP Protocol Stack
-    -> User Space Program (ex. PING)
+    -> User Space Program (e.g. PING)
 
 
 ## Reference
