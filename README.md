@@ -49,6 +49,7 @@ you will see the new network interface "taco01" with ipaddr "10.10.10.2"
 
 In COMPUTER A:
     $ ping 10.10.10.2 
+
 In COMPUTER B:
     $ ping 10.10.10.1
 
